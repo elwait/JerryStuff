@@ -50,3 +50,14 @@
   2. **radial distribution function**
      + hydration shell (number waters and distances)
      + compare to experimental data
+    
+## To Do (Jerry)
+
+1. matplotlib script for automatically plotting
+2. finish opt for Yb (and any other problem ions)
+3. distance-dependent interaction energty curves for all the remaining ions
+4. ForceBalance for some ions (I need to do a few first and test HFE, analyze, etc)
+
+
+
+
