@@ -1,0 +1,13 @@
+# Basis set information downloaded from basis set exchange
+# There are 2 basis sets for each element (location in respective folders)
+#   - def2-TZVP (use for optimizations and single point energies with PCM implicit solvent)
+#       * should include an ECP (make sure G16 input *.com calls basis set using GenECP and Pseudo=Read)
+#       * sphere radii should be located at end of each def2-tzvp basis set file. ex:
+
+Modifysph
+
+La 4.0
+
+
+#   - Sapporo-DKH3-TZP (use for single point gas-phase energies)
+#       * no ECP (make sure G16 input *.com calls basis set using Gen and Int=DKH . NO Pseudo=Read. )
