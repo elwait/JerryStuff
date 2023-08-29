@@ -1,0 +1,18 @@
+opt
+  have basis set for element in basissets folder
+  have template file for opt
+    starting structure, gaussian instructions
+    assign basis set for non-REM atoms
+    memory, etc
+    example here:
+  have element list with multiplicities
+  run script that makes dirs for each element, prepares input files, and writes job file
+  run La to make sure input runs
+  remove La job line
+  run job script to submit jobs
+
+single point energies (QM)
+  run script for extracting optimized structures and setting up single point dir
+  use excel workbook to make translate/rotate opt structure so oxygen is at the origin and interaction is parallel to x axis
+  put new structures in dir
+  
