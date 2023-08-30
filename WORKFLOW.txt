@@ -14,5 +14,22 @@ opt
 single point energies (QM)
   run script for extracting optimized structures and setting up single point dir
   use excel workbook to make translate/rotate opt structure so oxygen is at the origin and interaction is parallel to x axis
+  make list of distances 
   put new structures in dir
-  
+  have template file
+  run script to copy and edit template file and set up dirs for the various distances
+  run script containing all the job lines
+  run script that collects results
+  plot resulting distance-dependent interaction energy curves
+
+ForceBalance (MM parameterization)
+  get MM param sets that let results match QM most closely
+  select based on experimental data if available and necessary
+  collect energies (using MM model)
+
+MD Simulations
+  ion...water
+    hydration free energy
+    hydration shells (Radial Distribution Function)
+  ion...peptide interactions
+    
