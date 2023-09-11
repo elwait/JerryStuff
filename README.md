@@ -54,9 +54,8 @@ Element, Multiplicity
     
 ## To Do (Jerry)
 
-1. matplotlib script for automatically plotting
-3. distance-dependent interaction energy curves for all the remaining ions
-4. ForceBalance for some ions (I need to do a few first and test HFE, analyze, etc)
+1. distance-dependent interaction energy curves for all the remaining ions
+2. ForceBalance for some ions (I need to do a few first and test HFE, analyze, etc)
 
 
 
