@@ -3,25 +3,26 @@
 ## Ions
 
 ### Set #1
-    1. La
-    2. Ce
-    3. Nd
-    4. Sm
-    5. Gd
-    6. Tb
-    7. Yb
-    8. Lu
-    
-### Set #2
-    1. Y
-    2. Sc
-    3. Pr
-    4. Pm
-    5. Eu
-    6. Dy
-    7. Ho
-    8. Er
-    9. Tm  
+Element, Multiplicity
+1. Sc	1
+2. Y	1
+3. La	1
+4. Ce	2
+5. Pr	3
+6. Nd	4
+7. Pm	5
+8. Sm	6
+9. Eu	7
+10. Gd	8
+11. Tb	7
+12. Dy	6
+13. Ho	5
+14. Er	4
+15. Tm	3
+16. Yb	2
+17. Lu	1
+   
+
 
 ## Ion...Ligand Interactions
 ### 3 important ligands
