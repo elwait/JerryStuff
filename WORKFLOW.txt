@@ -1,3 +1,25 @@
+## Logging onto cluster ##
+
+# must be on campus or connected to UT VPN
+
+# log in
+ssh jlc8389@bme-jupiter.bme.utexas.edu
+# go to node that everything is connected to
+ssh bme-uranus
+# go to whatever node you are running jobs on
+ssh node154
+
+
+
+
+
+
+
+
+
+
+
+
 opt
   have basis set for element in basissets folder
   have template file for opt
