@@ -1,24 +1,54 @@
 ## Logging onto cluster ##
 
 # must be on campus or connected to UT VPN
-
+# open a terminal window
 # log in
 ssh jlc8389@bme-jupiter.bme.utexas.edu
 # go to node that everything is connected to
 ssh bme-uranus
 # go to whatever node you are running jobs on
 ssh node154
+# go to working directly which is currently
+cd /home/jlc8389/REM_params/Sm
+# source gaussian 16 bashrc
+source ~/.g16.bashrc
+
+## Download REM Paramterization Github Repository ##
+git clone https://github.com/elwait/REMParameterization.git
+
+## Stuff Requiring More Documentation Still ##
+# excel sheet for new coordinates
+# set up template
+# have basis set info
+# have element multiplicity info
+# have conda
+
+## Actually running scripts ##
+
+## Running Jobs ##
+# script will have created a file with lines for running jobs
+cd ${working_directory}
+tmux
+nohup bash jobs.txt > jobs.out &
+tmux detach
+
+## Troubleshooting ##
+# to check which jobs have finished or are running
+ls -ltr */*log
+# to check status of a job
+tail put-element-here/*log
+# check which have finished
+grep "Normal termination" */*log
+# check which jobs have crashed
+grep "Error termination" */*log
+# if a job has crashed
+vi put-element-here/*com
+# if not already there, add "XQC," in parentheses before "MaxCycles"
+# if that has not worked, increase MaxCycles by 1000
 
 
 
-
-
-
-
-
-
-
-
+## More General Stuff I Need to Add Docs For ##
 
 opt
   have basis set for element in basissets folder
