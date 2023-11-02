@@ -46,6 +46,17 @@ vi put-element-here/*com
 # if not already there, add "XQC," in parentheses before "MaxCycles"
 # if that has not worked, increase MaxCycles by 1000
 
+# collecting results
+# make sure you are in the directory that contains all the subfolders at the various distances
+# edit collect_g16_energies.sh to make sure it has the correct rare earth element and ligand
+bash collect_g16_energies.sh
+# there should now be a csv file named in the format element_ligand_results.csv
+
+
+
+
+
+
 
 
 ## More General Stuff I Need to Add Docs For ##
