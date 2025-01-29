@@ -1,27 +1,89 @@
 # Rare Earth Metal Parameterization
 
-## Ions
+This repository is intended as a guide for generating parameters for
+rare earth metal (REM) ions for molecular dynamics (MD) simulations
+with the AMOEBA polarizable force field using Tinker.
 
-### Set #1
-Element, Multiplicity
-1. Sc	1
-2. Y	1
-3. La	1
-4. Ce	2
-5. Pr	3
-6. Nd	4
-7. Pm	5
-8. Sm	6
-9. Eu	7
-10. Gd	8
-11. Tb	7
-12. Dy	6
-13. Ho	5
-14. Er	4
-15. Tm	3
-16. Yb	2
-17. Lu	1
-   
+That sentence is doing a lot of heavy lifting.
+
+This is how the explanation will be organized:
+1. What are rare earth metals (REMs)?
+     + What elements are included and how are they classified?
+     + Why do we care about them?
+     + Why do we want to model them?
+2. What are parameters?
+     + What is molecular dynamics?
+     + Where do parameters come from?
+3. What is different about AMOEBA?
+4. What is the scope of the current work?
+     + What elements are we getting parameters for?
+     + What parameters are we getting?
+     + How do we get those parameters?
+5. Summary and getting started
+
+
+
+
+## 1. What are rare earth metals (REMs)?
+### What elements are included and how are they classified?
+Rare earth metals (REMs) include Yttrium, Scandium, and the row of the periodic table starting with Lanthanum.
+Because of this, the elements in that row are often called lanthanides.
+REMs are typically +3 charge in solution, so you may see them referred to as Ln3+.
+
+They are transition metals with an interesting electronic structure.
+The 4f electrons are not great at shielding the other electrons from the nucleus.
+As the number of protons goes up with increasing atomic number, the electrons are pulled more strongly towards the nucleus.
+Therefore, as the rare earth elements get heavier down the periodic series, the ionic radii also get smaller.
+This is called the "Lanthanide Contraction."
+
+### Why do we care about them?
+REMs are absolutely essential resources in our technological era.
+They are important components of electronics (phone screens, hard drives) and batteries.
+They are used in electric vehicles, glass manufacturing, and green energy generation and storage.
+
+### Why do we want to model them?
+Conventional methods for separating and refining REMs are expensive, inefficient, and environmentally damaging.
+Typically, separation is done using small synthetic molecule chelators. They are not very specific for REMs.
+Refinement takes several steps and yields are not great. Therefore, the starting materials have to be high quality,
+with high concentration of REMs and as few impurities as possible. These materials have to be mined, which is expensive
+and can be catastrophic for the environment. Additionally, the chelating molecules are often toxic.
+
+In 2018, it was discovered that a fairly common bacteria makes a protein which is VERY good at binding REMs.
+The protein was named lanmodulin (LanM). This is because it has four EF-hand sites that coordinate one ion each.
+This is similar to calmodulin (CaM), although the protein sequences are not very similar.
+
+LanM binds REMs with high affinity and specificity, which means it binds them much more readily than other ions.
+We want to learn how LanM does this so we can try to do the same thing on an industrial scale.
+This would allow us to harvest REMs from conventional sources more efficiently, but also to take advantage of waste sources such as mine leechate.
+
+Additionally, LanM does not differentiate much between REMs
+
+
+
+## 2. What are parameters?
+### What is molecular dynamics?
+### Where do parameters come from?
+
+## 3. What is different about AMOEBA?
+
+## 4. What is the scope of the current work?
+### What elements are we getting parameters for?
+Lanthanum 
+
+
+### What parameters are we getting?
+### How do we get those parameters?
+
+## 5. Summary and getting started
+
+
+
+
+## Ions of Current Interest
+Element, Multiplicity (+3 charge), Atomic Number
+La	1 57
+Gd	8 64
+Lu 1 71
 
 
 ## Ion...Ligand Interactions
